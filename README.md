@@ -46,7 +46,7 @@ Genre VARCHAR(150),
 Published_Year INT,
 Price FLOAT,	
 Stock INT
-);```
+);
 
 ## SEEN ALL THE RECORDS IN BOOKS TABLE 
 -- THIS IS FIRST TABLE 
