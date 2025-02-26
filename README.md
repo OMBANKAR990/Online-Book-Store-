@@ -27,7 +27,7 @@ The database consists of the following tables:
    SELECT * FROM Books WHERE stock > 0;```
 
 
-## CREATE DATABASE 
+### CREATE DATABASE 
  ```sql
 CREATE DATABASE ONLINEBOOKSTORE;
  ```
