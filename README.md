@@ -93,24 +93,24 @@ SELECT * FROM ORDERS;
 
 ### Import Data into Books Table
  ```sql
--- COPY Books(Book_ID, Title, Author, Genre, Published_Year, Price, Stock) 
--- FROM 'D:\Course Updates\30 Day Series\SQL\CSV\Books.csv' 
--- CSV HEADER;
+ COPY Books(Book_ID, Title, Author, Genre, Published_Year, Price, Stock) 
+ FROM 'D:\Course Updates\30 Day Series\SQL\CSV\Books.csv' 
+ CSV HEADER;
  ```
 
 ### Import Data into Customers Table
  ```sql
--- COPY Customers(Customer_ID, Name, Email, Phone, City, Country) 
--- FROM 'D:\Course Updates\30 Day Series\SQL\CSV\Customers.csv' 
--- CSV HEADER;
+ COPY Customers(Customer_ID, Name, Email, Phone, City, Country) 
+ FROM 'D:\Course Updates\30 Day Series\SQL\CSV\Customers.csv' 
+ CSV HEADER;
  ```
 
 
 ### Import Data into Orders Table
  ```sql
--- COPY Orders(Order_ID, Customer_ID, Book_ID, Order_Date, Quantity, Total_Amount) 
--- FROM 'D:\Course Updates\30 Day Series\SQL\CSV\Orders.csv' 
--- CSV HEADER;
+ COPY Orders(Order_ID, Customer_ID, Book_ID, Order_Date, Quantity, Total_Amount) 
+ FROM 'D:\Course Updates\30 Day Series\SQL\CSV\Orders.csv' 
+ CSV HEADER;
  ```
 
 ### 1) Retrieve all books in the "Fiction" genre:
